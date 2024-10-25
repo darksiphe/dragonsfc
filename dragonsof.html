@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Dragons - Oficial</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212; /* fundo preto */
+            color: #ffffff; /* texto branco */
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #ff0000; /* vermelho */
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #1e1e1e; /* cinza escuro */
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #282828; /* cinza mais claro */
+            border-radius: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        a {
+            color: #ff0000; /* vermelho */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #ff0000; /* vermelho */
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e60000; /* vermelho mais escuro */
+        }
+        .social-icons img {
+            width: 30px;
+            margin: 0 5px;
+        }
+        .share-button {
+            background-color: #e4405f; /* cor do Instagram */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .site-share-button {
+            background-color: #007bff; /* cor para o compartilhamento do site */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bem-vindo ao Site Oficial do Time Dragons</h1>
+
+        <div class="section">
+            <h2>Sobre o Time</h2>
+            <p>Lembrando que o time é só Sub 13 e Sub 14. Não jogamos com pessoas mais velhas.</p>
+        </div>
+
+        <div class="section">
+            <h2>Elenco do Time</h2>
+            <ul>
+                <li>Pedro H: 14 anos</li>
+                <li>Pedro K: 14 anos</li>
+                <li>Lucas: 14 anos</li>
+                <li>Edson: 14 anos</li>
+                <li>Erick: 14 anos</li>
+                <li>Pietro: 14 anos</li>
+                <li>Marcos: 14 anos</li>
+                <li>Jhonathan: 14 anos</li>
+                <li>Richard: 14 anos</li>
+                <li>Kaue: 14 anos</li>
+            </ul>
+            <p>Se algum Sub 13 quiser entrar, é só mandar mensagem na nossa conta do Instagram: <strong><a href="https://instagram.com/dragonsfc99" target="_blank">@dragonsfc99</a></strong></p>
+            <button class="share-button" onclick="shareInstagram()">Compartilhar no Instagram</button>
+        </div>
+
+        <div class="section">
+            <h2>Calendário de Jogos</h2>
+            <p>Próximos jogos:</p>
+            <ul>
+                <li>Data: 01/11 - Oponente: Time A</li>
+                <li>Data: 08/11 - Oponente: Time B</li>
+                <li>Data: 15/11 - Oponente: Time C</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Destaque da Semana</h2>
+            <p>Jogador em destaque: <strong>Pedro H</strong> - Excelente desempenho no último jogo!</p>
+        </div>
+
+        <div class="section">
+            <h2>Histórico de Jogos</h2>
+            <p>Resultados dos jogos passados:</p>
+            <ul>
+                <li>Dragons 3 x 2 Time D</li>
+                <li>Dragons 1 x 1 Time E</li>
+                <li>Dragons 2 x 0 Time F</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Estatísticas dos Jogadores</h2>
+            <p>Confira as estatísticas dos jogadores:</p>
+            <ul>
+                <li>Pedro H: 5 gols, 2 assistências</li>
+                <li>Lucas: 1 gol, 5 defesas</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Notícias da Liga</h2>
+            <p>Atualizações sobre a liga:</p>
+            <ul>
+                <li>Próximo jogo da liga agendado para o dia 30/11.</li>
+                <li>A liga inicia no dia 15/11 com novas equipes.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Formação Tática</h2>
+            <p>Formação tática utilizada pelo time:</p>
+            <ul>
+                <li>4-4-2 - Defesa sólida e ataque rápido.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Receitas de Lanches Saudáveis</h2>
+            <p>Dicas de lanches para os jogadores:</p>
+            <ul>
+                <li>Sanduíche de peito de frango.</li>
+                <li>Frutas variadas.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Calendário de Competições</h2>
+            <p>Próximas competições:</p>
+            <ul>
+                <li>Campeonato Municipal - Início: 15/11</li>
+                <li>Taça Primavera - Início: 01/12</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Música do Time</h2>
+            <p>Ouça a playlist do time:</p>
+            <ul>
+                <li><a href="#">Playlist no Spotify</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Galeria de Troféus</h2>
+            <p>Troféus e conquistas do Time Dragons:</p>
+            <ul>
+                <li>Campeão do Torneio X - 2023</li>
+                <li>Vice-Campeão do Torneio Y - 2022</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Clube de Pais</h2>
+            <p>Saiba como os pais podem se envolver:</p>
+            <ul>
+                <li>Reuniões mensais para discutir o progresso do time.</li>
+                <li>Eventos sociais para integrar a família ao time.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Chat ao Vivo</h2>
+            <p>Converse com jogadores e treinadores:</p>
+            <p>(Essa funcionalidade requer integração com uma plataforma de chat.)</p>
+        </div>
+
+        <div class="section">
+            <h2>Formulário de Inscrição Online</h2>
+            <form>
+                <input type="text" placeholder="Nome do Jogador" required>
+                <input type="number" placeholder="Idade" required min="10" max="14">
+                <input type="text" placeholder="Posição" required>
+                <input type="text" placeholder="Nome do Responsável" required>
+                <input type="tel" placeholder="Telefone do Responsável" required>
+                <textarea placeholder="Mensagem (opcional)"></textarea>
+                <button type="submit">Inscrever</button>
+            </form>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Time Dragons. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script>
+        function shareInstagram() {
+            const instagramURL = "https://www.instagram.com/dragonsfc99/";
+            const
+
